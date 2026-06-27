@@ -436,7 +436,7 @@ Known issues: None (yet?)
    - **(Prism/MultiMC)** - Download the latest [Cleanroom Loader MMC instance](https://download.cleanroommc.com) and copy the `minecraft` (or `.minecraft`) folder from the RLCraft instance to it.
    - **(CurseForge/Modrinth/ATLauncher/GDLauncher)** - Install the Cleanroom Relauncher mod
 3. Update RenderLib, Recurrent Complex (you might have to delete and download the mod again) and RLTweaker
-4. Remove AttributeFix, Born in a Barn, BreakBedBegone, Block Overlay Fix, Entity Culling (by Meldexun), FoamFix, Frame Void Patch, HelpFixer, Just Enough Items, LibrarianLib, MixinBootstrap, MixinCompatibility, Quark, Phosphor, PortalDupeBegone, Shadowfacts' Forgelin, Spark, Surge and Toast Control
+  4. Remove AttributeFix, BedBreakBegone, Block Overlay Fix, Born in a Barn, Entity Culling (by Meldexun), FoamFix, Frame Void Patch, HelpFixer, Just Enough Items, LibrarianLib, MixinBootstrap, MixinCompatibility, Phosphor, PortalDupeBegone, Quark, Shadowfacts' Forgelin, Spark, Surge and Toast Control
 5. Install Forgelin-Continuous, Fugue, Had Enough Items, LibrarianLib-Continuous, Quark: RotN Edition and Scalar Legacy
 6. Make sure you have all of [these mods](/mods-n-stuff/1.12.2.md) installed and configured accordingly
 
@@ -453,7 +453,7 @@ Known issues: None (yet?)
 2. Move the pack to Cleanroom Loader
    - **(Prism/MultiMC)** - Download the latest [Cleanroom Loader MMC instance](https://download.cleanroommc.com) and copy the `minecraft` (or `.minecraft`) folder from the RLCraft Dregora instance to it.
    - **(CurseForge/Modrinth/ATLauncher/GDLauncher)** - Install the Cleanroom Relauncher mod
-3. Remove AttributeFix, Born in a Barn, BreakBedBegone, Block Overlay Fix, Entity Culling (by Meldexun), FermiumASM, FermiumBooter, FileDirector, FoamFix, Food Fix, Frame Void Patch, HelpFixer, Just Enough Items, LibrarianLib, Quark, Phosphor, PhosphorCrashFix, PortalDupeBegone, Shadowfacts' Forgelin, Spark, Surge and Toast Control
+3. Remove AttributeFix, Born in a Barn, BedBreakBegone, Block Overlay Fix, Entity Culling (by Meldexun), FermiumASM, FermiumBooter, FileDirector, FoamFix, Food Fix, Frame Void Patch, HelpFixer, Just Enough Items, LibrarianLib, Quark, Phosphor, PhosphorCrashFix, PortalDupeBegone, Shadowfacts' Forgelin, Spark, Surge and Toast Control
 4. Install FermiumBooterDepoliticization, Forgelin-Continuous, Fugue, Had Enough Items, LibrarianLib-Continuous, Quark: RotN Edition and Scalar Legacy
 5. Make sure you have all of [these mods](/mods-n-stuff/1.12.2.md) installed and configured accordingly
 
