@@ -509,7 +509,7 @@ Known issues: Had Enough Items [conflicts](https://github.com/Polytetrafluoroeth
 2. Move the pack to Cleanroom Loader
    - **(Prism/MultiMC)** - Download the latest [Cleanroom Loader MMC instance](https://download.cleanroommc.com) and copy the `minecraft` (or `.minecraft`) folder from the StoneBlock instance to it.
    - **(CurseForge/Modrinth/ATLauncher/GDLauncher)** - Install the Cleanroom Relauncher mod
-3. Update Flux Networks, Simply Jetpacks 2 and Solar Flux Reborn to their lastest versions\
+3. Update Flux Networks, Simply Jetpacks 2 and Solar Flux Reborn to their lastest versions
 4. Remove AttributeFix, BetterFPS, Fast Leaf Decay, FoamFix, Just Enough Items, Just Enough IDs, Mercurius, Old Java Warning, Shadowfacts' Forgelin and Toast Control
 5. Install Forgelin-Continuous, Fugue, Had Enough Items, Roughly Enough IDs and Scalar Legacy
 6. Make sure you have all of [these mods](/mods-n-stuff/1.12.2.md) installed and configured accordingly
