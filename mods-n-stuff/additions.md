@@ -8,6 +8,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Mod | Note | Mod loader | Client/Server |
 |:---:|:---:|:---:|:---:|
 | Alternate Current | Can improve performance with lots of redstone contraptions around | Fabric, NeoForge | Server |
+| Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, NeoForge | Both |
 | AsyncParticles | Improves performance when many particles are on screen | Fabric, NeoForge | Client |
 | BadOptimizations | Optimizes various parts of the game, **but some things may differ from Vanilla** | Fabric, NeoForge | Both |
 | Cerulean | Optimizes the advancement checking system | Fabric, NeoForge | Server |
@@ -35,6 +36,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Mod | Note | Mod loader | Client/Server |
 |:---:|:---:|:---:|:---:|
 | Alternate Current | Can improve performance with lots of redstone contraptions around | Fabric, Forge | Server |
+| Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, NeoForge | Both |
 | AsyncParticles | Improves performance when many particles are on screen | Fabric, Forge | Client |
 | BadOptimizations | Optimizes various parts of the game, **but some things may differ from Vanilla** | Fabric, Forge | Both |
 | Cerulean | Optimizes the advancement checking system | Fabric, Forge | Server |
@@ -67,6 +69,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Mod | Note | Mod loader | Client/Server |
 |:---:|:---:|:---:|:---:|
 | Alternate Current | Can improve performance with lots of redstone contraptions around | Fabric, Forge | Server |
+| Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, NeoForge | Both |
 | BadOptimizations | Optimizes various parts of the game, **but some things may differ from Vanilla** | Fabric, Forge | Both |
 | Clumps | Clumps XP Orbs together, reducing lag | Fabric, Forge | Server |
 | Debugify/Debugify Reforged | Fixes various bugs | Fabric, Forge | Both |
@@ -88,6 +91,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Mod | Note | Mod loader | Client/Server |
 |:---:|:---:|:---:|:---:|
 | Alternate Current | Can improve performance with lots of redstone contraptions around | Fabric, Forge | Server |
+| Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, NeoForge | Both |
 | Clumps | Clumps XP Orbs together, reducing lag | Fabric, Forge | Server |
 | Debugify/Modern Debugify | Fixes various bugs. Modern Debugify needs to have MC-147605 disabled if you're using JEI | Fabric, Forge | Both |
 | Icterine | Optimizes the advancement checking system | Fabric, Forge | Server |
