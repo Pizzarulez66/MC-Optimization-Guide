@@ -36,7 +36,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Mod | Note | Mod loader | Client/Server |
 |:---:|:---:|:---:|:---:|
 | Alternate Current | Can improve performance with lots of redstone contraptions around | Fabric, Forge | Server |
-| Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, NeoForge | Both |
+| Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, Forge | Both |
 | AsyncParticles | Improves performance when many particles are on screen | Fabric, Forge | Client |
 | BadOptimizations | Optimizes various parts of the game, **but some things may differ from Vanilla** | Fabric, Forge | Both |
 | Cerulean | Optimizes the advancement checking system | Fabric, Forge | Server |
@@ -69,7 +69,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Mod | Note | Mod loader | Client/Server |
 |:---:|:---:|:---:|:---:|
 | Alternate Current | Can improve performance with lots of redstone contraptions around | Fabric, Forge | Server |
-| Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, NeoForge | Both |
+| Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, Forge | Both |
 | BadOptimizations | Optimizes various parts of the game, **but some things may differ from Vanilla** | Fabric, Forge | Both |
 | Clumps | Clumps XP Orbs together, reducing lag | Fabric, Forge | Server |
 | Debugify/Debugify Reforged | Fixes various bugs | Fabric, Forge | Both |
@@ -91,7 +91,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Mod | Note | Mod loader | Client/Server |
 |:---:|:---:|:---:|:---:|
 | Alternate Current | Can improve performance with lots of redstone contraptions around | Fabric, Forge | Server |
-| Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, NeoForge | Both |
+| Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, Forge | Both |
 | Clumps | Clumps XP Orbs together, reducing lag | Fabric, Forge | Server |
 | Debugify/Modern Debugify | Fixes various bugs. Modern Debugify needs to have MC-147605 disabled if you're using JEI | Fabric, Forge | Both |
 | Icterine | Optimizes the advancement checking system | Fabric, Forge | Server |
@@ -112,6 +112,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Mod | Note | Mod loader | Client/Server |
 |:---:|:---:|:---:|:---:|
 | Alternate Current | Can improve performance with lots of redstone contraptions around | Fabric, Forge | Server |
+| Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, Forge | Both |
 | Clumps | Clumps XP Orbs together, reducing lag | Fabric, Forge | Both |
 | Krypton | Improves the network stack, may be helpful on multiplayer | Fabric | Both |
 | SerializationIsBad | Fixes the BleedingPipe/ObjectInputStream vulnerability | Forge | Both |
@@ -126,6 +127,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 
 | Mod | Note | Mod loader | Client/Server |
 |:---:|:---:|:---:|:---:|
+| Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Cleanroom | Both |
 | Better Biome Blend | Improves the performance and look of biome blending. Not necessary if you're using Celeritas | Cleanroom | Client |
 | Gnetum | Distributes HUD updates over multiple frames which improves performance | Cleanroom | Client |
 | OptiNotFine | If you use OptiFine (unfortunately the only mod that supports shaders), it’s recommended to use this mod to fix some OptiFine-related issues | Cleanroom | Client |
