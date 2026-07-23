@@ -149,7 +149,7 @@ Known issues: Doesn't work on latest Cleanroom (0.3.26), use 0.3.24 for now.
 2. Move the pack to Cleanroom Loader
    - **(Prism/MultiMC)** - Download the latest [Cleanroom Loader MMC instance](https://download.cleanroommc.com) and copy the `minecraft` (or `.minecraft`) folder from the FTB Academy instance to it.
    - **(CurseForge/Modrinth/ATLauncher/GDLauncher)** - Install the Cleanroom Relauncher mod
-3. Update Chisel, Dynamic Trees, Dynamic Trees - Traverse, JourneyMap and MineTogether
+3. Update Chisel, Dynamic Trees, Dynamic Trees - Traverse, JourneyMap (to 5.7.1p3) and MineTogether
 4. Remove BetterFPS, Clumps, Diet Hopper, Fast Leaf Decay, FastFurance, FastWorkbench, FoamFix, Just Enough Items, NetherPortalFix, Phosphor, RandomPatches, Shadowfacts' Forgelin and VanillaFix
 5. Install Forgelin-Continuous, Fugue, Had Enough Items and Scalar Legacy
 6. Make sure you have all of [these mods](/mods-n-stuff/1.12.2.md) installed and configured accordingly
@@ -330,7 +330,7 @@ Known issues: Updating Alfheim to 1.6 causes crashes when displaying MMCE multib
 2. Move the pack to Cleanroom Loader
    - **(Prism/MultiMC)** - Download the latest [Cleanroom Loader MMC instance](https://download.cleanroommc.com) and copy the `minecraft` (or `.minecraft`) folder from the Modern Skyblock 3: Departed instance to it.
    - **(CurseForge/Modrinth/ATLauncher/GDLauncher)** - Install the Cleanroom Relauncher mod
-3. Update Corail Tombstone, HammerCore (HammerLib), iChunUtil, JourneyMap, Flux Networks, Mekanism, Mekanism Generators, Mekanism Tools, Simply Jetpacks 2 and ThaumicJEI to their latest versions
+3. Update Corail Tombstone, HammerCore (HammerLib), iChunUtil, JourneyMap (to 5.7.1p3), Flux Networks, Mekanism, Mekanism Generators, Mekanism Tools, Simply Jetpacks 2 and ThaumicJEI to their latest versions
 4. Remove Bed Patch, BetterFPS, Clumps, Diet Hopper, Fast Leaf Decay, FastWorkbench, FoamFix, Just Enough Items, NetherPortalFix, NotEnoughIDs, RandomPatches, Shadowfacts' Forgelin and ToastControl
 5. Install Forgelin-Continuous, Fugue, Had Enough Items, Roughly Enough IDs and Scalar Legacy
 6. Make sure you have all of [these mods](/mods-n-stuff/1.12.2.md) installed and configured accordingly
@@ -472,7 +472,7 @@ Known issues: None (yet?)
 2. Move the pack to Cleanroom Loader
    - **(Prism/MultiMC)** - Download the latest [Cleanroom Loader MMC instance](https://download.cleanroommc.com) and copy the `minecraft` (or `.minecraft`) folder from the SevTech: Ages instance to it.
    - **(CurseForge/Modrinth/ATLauncher/GDLauncher)** - Install the Cleanroom Relauncher mod
-3. Update Better Foliage, Bookshelf, ConnectedTexturesMod, Chisel, CraftTweaker, JourneyMap, Ore Stages, and The Twilight Forest
+3. Update Better Foliage, Bookshelf, ConnectedTexturesMod, Chisel, CraftTweaker, JourneyMap (to 5.7.1p3), Ore Stages, and The Twilight Forest
 4. Remove BetterFPS, Clumps, FastFurance, FastWorkbench, FoamFix, JustEnoughIDs, Just Enough Items, JourneyMapStages, Quick Leaf Decay, RandomPatches, Shadowfacts' Forgelin, Swing Through Grass and Toast Control
 5. Install Forgelin-Continuous, Fugue, Had Enough Items, JourneyMapStages Continuation, Roughly Enough IDs and Scalar Legacy
 6. Make sure you have all of [these mods](/mods-n-stuff/1.12.2.md) installed and configured accordingly (**NOTE:** You MUST set `mixin.dynamic_resources` to `false` in vintagefix.properties as well as `Parallel Model Loader` in stellar_core.cfg, otherwise the game won't load or you'll get missing textures)
