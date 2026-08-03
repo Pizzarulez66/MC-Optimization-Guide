@@ -10,32 +10,38 @@
 ## 1.20.1+
 | Mod Loader | Java | Notes |
 |:---:|:---:|:---:|
-| Fabric | [Adoptium Java 25](https://adoptium.net/temurin/releases/?version=25&package=jre) | - |
-| Forge/NeoForge | [Adoptium Java 25](https://adoptium.net/temurin/releases/?version=25&package=jre) | - |
-| Forge | [Adoptium Java 21](https://adoptium.net/temurin/releases/?version=21&package=jre) | Use ONLY if you have a mod which doesn't work with Java 25 |
+| Fabric | [Adoptium Java 25] | - |
+| Forge/NeoForge | [Adoptium Java 25] | - | 
+| Forge | [Adoptium Java 21] | Use ONLY if you have a mod incompatible with Java 25 |
 
 ## 1.18.2 & 1.19.2
 | Mod Loader | Java | Notes |
 |:---:|:---:|:---:|
-| Fabric | [Adoptium Java 25](https://adoptium.net/temurin/releases/?version=25&package=jre) | - |
-| Forge | [Adoptium Java 21](https://adoptium.net/temurin/releases/?version=21&package=jre) | - |
+| Fabric | [Adoptium Java 25] | - |
+| Forge | [Adoptium Java 21] | - |
 
 ## 1.16.5
 | Mod Loader | Java | Notes |
 |:---:|:---:|:---:|
-| Fabric | [Adoptium Java 25](https://adoptium.net/temurin/releases/?version=25&package=jre) | - |
-| Forge | [Adoptium Java 21](https://adoptium.net/temurin/releases/?version=21&package=jre) | I highly recommend using [these JVM arguments](https://github.com/embeddedt/ModernFix/wiki/1.16---required-arguments-for-Java-17), as well as [NashornCompatLayer](https://github.com/embeddedt/NashornCompatLayer/releases) |
-| Fabric/Forge | [Adoptium Java 8](https://adoptium.net/temurin/releases/?version=8&package=jre) | Use ONLY if you have a mod which doesn't work with Java 21 or 25 |
+| Fabric | [Adoptium Java 25] | - |
+| Forge | [Adoptium Java 21] | I highly recommend using [these JVM arguments](https://github.com/embeddedt/ModernFix/wiki/1.16---required-arguments-for-Java-17), as well as [NashornCompatLayer](https://github.com/embeddedt/NashornCompatLayer/releases) |
+| Fabric/Forge | [Adoptium Java 8] | Use ONLY if you have a mod which doesn't work with Java 21 or 25 |
 
 ## 1.12.2
 | Mod Loader | Java | Notes |
 |:---:|:---:|:---:|
-| Cleanroom | [Adoptium Java 25](https://adoptium.net/temurin/releases/?version=25&package=jre) | - |
+| Cleanroom | [Adoptium Java 25] | - |
+
+## 1.8.9
+| Mod Loader | Java | Notes |
+|:---:|:---:|:---:|
+| Forge | [Adoptium Java 8] | - |
+| Ornithe | [Adoptium Java 25] | Requires [Legacy LWJGL3](https://modrinth.com/mod/moehreag-legacy-lwjgl3) |
 
 ## 1.7.10
 | Mod Loader | Java | Notes |
 |:---:|:---:|:---:|
-| Forge | [Adoptium Java 25](https://adoptium.net/temurin/releases/?version=25&package=jre) | Requires [LWJGL3ify](https://modrinth.com/mod/lwjgl3ify) |
+| Forge | [Adoptium Java 25] | Requires [LWJGL3ify](https://modrinth.com/mod/lwjgl3ify) | - |
 
 # JVM Arguments
 
@@ -52,14 +58,22 @@ Depending on the Java version, different JVM arguments are available. Here's wha
 
 Brief explanation of what these arguments do:
 
-`-XX:+UseG1GC` - Enables the G1 Garbage Collector. G1 is the default since Java 9, so the arg is only necessary on Java 8.
+`-XX:+UseG1GC` - Enables the G1 Garbage Collector. G1 is the default since Java 9, so the argument is only necessary on Java 8, as it uses Parallel GC by default, which causes stop-the-world pauses.
 
-`-XX:+UseZGC` - Enables the Z Garbage Collector. It uses more RAM but eliminates GC-related stutters
+`-XX:+UseZGC` - Enables the Z Garbage Collector. It uses more RAM and CPU (lowering throughput) but eliminates GC-related stutters. Only available on Java 17 and above.
 
-`-XX:+ZGenerational` - Makes ZGC generational. Only necessary on Java 21 as ZGC is generational by default since Java 23.
+`-XX:+ZGenerational` - Makes ZGC generational, significantly improving performance. Only necessary on Java 21, as ZGC is generational by default since Java 23.
 
-`-XX:+UseCompactObjectHeaders` - Enables Compact Object Headers. This feature reduces RAM usage and boosts performance a bit.
+`-XX:+UseShenandoahGC` - Enables the Shenandoah Garbage Collector. It is a middle-ground between G1GC, providing good throughput, RAM usage, and significantly lowers GC-related stutters.
+
+`-XX:+UnlockExperimentalVMOptions -XX:ShenandoahGCMode=generational` - Makes Shenandoah generational, significantly improving performance. Only necessary on Java 24, as Java 25 makes it the default.
+
+`-XX:+UseCompactObjectHeaders` - Enables Compact Object Headers. This feature reduces RAM usage and boosts performance a bit, at no cost. Only available on Java 24 and above.
 
 ### Additional JVM arguments
 
 `-Djava.locale.providers=JRE` Fixes `NNBSP` characters showing up in DateFormat outputs (e.g. near timestamps) on some versions when using Java 20 or newer.
+
+[Adoptium Java 25]: https://adoptium.net/temurin/releases/?version=25&package=jre
+[Adoptium Java 21]: https://adoptium.net/temurin/releases/?version=21&package=jre
+[Adoptium Java 8]: https://adoptium.net/temurin/releases/?version=8&package=jre
