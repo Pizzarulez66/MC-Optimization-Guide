@@ -492,8 +492,8 @@ Known issues: None (yet?)
    - **(CurseForge/Modrinth/ATLauncher/GDLauncher)** - Install the Cleanroom Relauncher mod
 3. Update Flux Networks and CraftTweaker to the latest version
 4. Replace Mekanism and Mekanism Generators with their "Community Edition" equivalents
-5. Remove FastFurnace, FastWorkbench, FoamFix, Mercurius, Shadowfacts' Forgelin, Surge, SwingThroughGrass, and Toast Control 
-6. Install Forgelin-Continuous, Fugue and Scalar Legacy
+5. Remove FastFurnace, FastWorkbench, FoamFix, Just Enough Items, Mercurius, Shadowfacts' Forgelin, Surge, SwingThroughGrass, and Toast Control 
+6. Install Forgelin-Continuous, Fugue, Had Enough Items and Scalar Legacy
 7. Make sure you have all of [these mods](/mods-n-stuff/1.12.2.md) installed and configured accordingly
 
 Known issues: Had Enough Items [conflicts](https://github.com/Polytetrafluoroethylene-PTFE/MC-Optimization-Guide/issues/27) with Resource Hogs and causes [crashes](https://github.com/CleanroomMC/HadEnoughItems/issues/141), so it cannot be used. 
