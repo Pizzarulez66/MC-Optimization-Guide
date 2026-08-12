@@ -14,7 +14,7 @@ This list assumes that you're already using every mod this guide recommends. Fur
 | Better Biome Reblend | Redundant with Sodium |
 | Better Chunk Loading | May cause issues [[1]](https://github.com/FiniteReality/embeddium/wiki/Compatibility#other-known-incompatibilities) |
 | Better FPS - Render Distance | Might decrease fps on lower render distances, might cause visual bugs |
-| Chunk Sending | Redundant with Krypton/KryptonReno |
+| Chunk Sending | Redundant with Krypton/Krypton Reno |
 | CLab | AI-Slop. Redundant with Entity Culling |
 | Client Crafting | Mostly Redundant with FastFurnace, FastWorkbench and FastSuite |
 | Cull Leaves | Redundant with More Culling |
@@ -31,7 +31,7 @@ This list assumes that you're already using every mod this guide recommends. Fur
 | FeyTweaks | Mostly redundant with ImmediatelyFast |
 | FPS Boost | Fake mod, doesn't provide any performance improvements |
 | GPUBooster/GPUTape | Doesn't actually fix VRAM leaks |
-| KryptonFoxified | Redundant with KryptonReno |
+| KryptonFoxified | Redundant with Krypton Reno |
 | Ksyxis | Removes spawn chunks |
 | lazy-language-loader | Redundant with Language Reload |
 | Methane | Disables light calculations, breaks Vanilla parity, incompatible with ScalableLux |
@@ -69,7 +69,7 @@ This list assumes that you're already using every mod this guide recommends. Fur
 | Better FPS - Render Distance | Might decrease fps on lower render distances, might cause visual bugs |
 | Brute force render culling | Visual bugs |
 | Canary | Redundant with Radium |
-| Chunk Sending | Redundant with Krypton/KryptonReno |
+| Chunk Sending | Redundant with Krypton/Krypton Reno |
 | CLab | AI-Slop. Redundant with Entity Culling |
 | Client Crafting | Mostly Redundant with FastFurnace, FastWorkbench and FastSuite |
 | Concurrent Chunk Management Engine Forge (C2MEF) | No different than using C2ME via Synitra Connector |
@@ -133,7 +133,7 @@ This list assumes that you're already using every mod this guide recommends. Fur
 | Better FPS - Render Distance | Might decrease fps on lower render distances, might cause visual bugs |
 | Brute force render culling | Visual bugs |
 | Canary | Redundant with Radium |
-| Chunk Sending | Redundant with Krypton/KryptonReno |
+| Chunk Sending | Redundant with Krypton/Krypton Reno |
 | Client Crafting | Mostly Redundant with FastFurnace, FastWorkbench and FastSuite |
 | Cull Clouds | Negligible performance improvement |
 | Cull Leaves | Redundant with More Culling |
@@ -164,7 +164,7 @@ This list assumes that you're already using every mod this guide recommends. Fur
 | OptiLeaves | Redundant with CullLessLeaves Reforged |
 | OptiPainting | Redundant with FastPaintings |
 | Out Of Sight | Redundant with Entity Culling |
-| Pluto | Redundant with KryptonReno |
+| Pluto | Redundant with Krypton Reno |
 | Radon | Redundant with Starlight |
 | Recipe Essentials | Mostly Redundant with FastFurnace, FastWorkbench and FastSuite |
 | Redirector [Modern] | Compatibility issues, negligible performance improvement |
@@ -191,7 +191,7 @@ This list assumes that you're already using every mod this guide recommends. Fur
 | Better Chunk Loading | May cause issues [[1]](https://github.com/FiniteReality/embeddium/wiki/Compatibility#other-known-incompatibilities) |
 | Better FPS - Render Distance | Might decrease fps on lower render distances, might cause visual bugs |
 | Brute force render culling | Visual bugs |
-| Chunk Sending | Redundant with Krypton/KryptonReno |
+| Chunk Sending | Redundant with Krypton/Krypton Reno |
 | Client Crafting | Mostly Redundant with FastFurnace, FastWorkbench and FastSuite |
 | Cull Clouds | Negligible performance improvement |
 | Cull Leaves | Redundant with More Culling |
@@ -218,7 +218,7 @@ This list assumes that you're already using every mod this guide recommends. Fur
 | OptiFine | [Various reasons](opti-not-so-fine.md) |
 | OptiLeaves | Redundant with CullLessLeaves Reforged |
 | Out Of Sight | Redundant with Entity Culling |
-| Pluto | Redundant with KryptonReno |
+| Pluto | Redundant with Krypton Reno |
 | Radon | Redundant with Starlight |
 | Recipe Cache | Redundant with FastFurnace, FastWorkench and FastSuite |
 | Redirector [Modern] | Compatibility issues, negligible performance improvement |
