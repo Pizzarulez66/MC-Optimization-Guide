@@ -20,7 +20,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Gnetum | Distributes HUD updates over multiple frames which improves performance | NeoForge | Client |
 | Immersive Optimization | Improves TPS, but may differ from Vanilla slightly | Fabric, NeoForge | Server |
 | Ixeris | Offloads event polling to a separate thread, potentially improving FPS | NeoForge | Client |
-| Krypton/Krypton FNP | Improves the network stack, may be helpful on multiplayer | Fabric, Forge, NeoForge | Both |
+| Krypton/Krypton Reno | Improves the network stack, may be helpful on multiplayer | Fabric, Forge, NeoForge | Both |
 | MapMipMapMod | Improves mipmapping of maps in item frames | Fabric | Client |
 | Not Enough Recipe Book | Removes the recipe book which can help performance in some cases. Reduces redundancy with item viewers such as EMI | Fabric, NeoForge | Both |
 | Structure Layout Optimizer | Improves structure generation speed, helpful in packs with lots of structures | Fabric, NeoForge | Server |
@@ -48,7 +48,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Gnetum | Distributes HUD updates over multiple frames which improves performance | Forge | Client |
 | Immersive Optimization | Improves TPS, but may differ from Vanilla slightly | Fabric, Forge | Server |
 | Ixeris | Offloads event polling to a separate thread, potentially improving FPS | NeoForge | Client |
-| Krypton/Krypton FNP | Improves the network stack, may be helpful on multiplayer | Fabric, Forge | Both |
+| Krypton/Krypton Reno | Improves the network stack, may be helpful on multiplayer | Fabric, Forge | Both |
 | Lazyyyyy | Can improve loading times in bigger modpacks | Forge | Both |
 | MapMipMapMod | Improves mipmapping of maps in item frames | Fabric | Client |
 | Mobtimizations | Modifies Entity behavior to improve performance. May differ from Vanilla slightly | Fabric, Forge | Server |
@@ -74,7 +74,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Clumps | Clumps XP Orbs together, reducing lag | Fabric, Forge | Server |
 | Debugify/Debugify Reforged | Fixes various bugs | Fabric, Forge | Both |
 | Icterine | Optimizes the advancement checking system | Fabric, Forge | Server |
-| Krypton/Krypton FNP | Improves the network stack, may be helpful on multiplayer | Fabric, Forge | Both |
+| Krypton/Krypton Reno | Improves the network stack, may be helpful on multiplayer | Fabric, Forge | Both |
 | Mobtimizations | Modifies Entity behavior to improve performance. May differ from Vanilla slightly | Fabric, Forge | Server |
 | Not Enough Recipe Book | Removes the recipe book which can help performance in some cases. Reduces redundancy with item viewers such as EMI | Fabric, Forge | Both |
 | SerializationIsBad | Fixes the BleedingPipe/ObjectInputStream vulnerability | Forge | Both |
@@ -95,7 +95,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Clumps | Clumps XP Orbs together, reducing lag | Fabric, Forge | Server |
 | Debugify/Modern Debugify | Fixes various bugs. Modern Debugify needs to have MC-147605 disabled if you're using JEI | Fabric, Forge | Both |
 | Icterine | Optimizes the advancement checking system | Fabric, Forge | Server |
-| Krypton/Krypton FNP | Improves the network stack, may be helpful on multiplayer | Fabric, Forge | Both |
+| Krypton/Krypton Reno | Improves the network stack, may be helpful on multiplayer | Fabric, Forge | Both |
 | Mobtimizations | Modifies Entity behavior to improve performance. May differ from Vanilla slightly | Fabric, Forge | Server |
 | Not Enough Recipe Book | Removes the recipe book which can help performance in some cases. Reduces redundancy with item viewers such as EMI | Fabric, Forge | Both |
 | SerializationIsBad | Fixes the BleedingPipe/ObjectInputStream vulnerability | Forge | Both |
