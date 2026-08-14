@@ -94,6 +94,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, Forge | Both |
 | Clumps | Clumps XP Orbs together, reducing lag | Fabric, Forge | Server |
 | Debugify/Modern Debugify | Fixes various bugs. Modern Debugify needs to have MC-147605 disabled if you're using JEI | Fabric, Forge | Both |
+| Gnetum | Distributes HUD updates over multiple frames which improves performance | Forge | Client |
 | Icterine | Optimizes the advancement checking system | Fabric, Forge | Server |
 | Krypton/Krypton Reno | Improves the network stack, may be helpful on multiplayer | Fabric, Forge | Both |
 | Mobtimizations | Modifies Entity behavior to improve performance. May differ from Vanilla slightly | Fabric, Forge | Server |
