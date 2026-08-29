@@ -17,10 +17,10 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Create Better FPS | Improves fps when using shaders around Create contraptions. Doesn't work as well as Vanillin, but has better shader compatibility | NeoForge | Client |
 | Debugify | Fixes various bugs | Fabric | Both |
 | Flerovium | Speeds up item rendering | NeoForge | Client |
-| Gnetum | Distributes HUD updates over multiple frames which improves performance | NeoForge | Client |
+| Gnetum | Distributes HUD updates over multiple frames which improves performance | Fabric, NeoForge | Client |
 | Immersive Optimization | Improves TPS, but may differ from Vanilla slightly | Fabric, NeoForge | Server |
-| Ixeris | Offloads event polling to a separate thread, potentially improving FPS | NeoForge | Client |
-| Krypton/Krypton Reno | Improves the network stack, may be helpful on multiplayer | Fabric, Forge, NeoForge | Both |
+| Ixeris | Offloads event polling to a separate thread, potentially improving FPS | Fabric, NeoForge | Client |
+| Krypton/Krypton Reno | Improves the network stack, may be helpful on multiplayer | Fabric, NeoForge | Both |
 | MapMipMapMod | Improves mipmapping of maps in item frames | Fabric | Client |
 | Not Enough Recipe Book | Removes the recipe book which can help performance in some cases. Reduces redundancy with item viewers such as EMI | Fabric, NeoForge | Both |
 | Structure Layout Optimizer | Improves structure generation speed, helpful in packs with lots of structures | Fabric, NeoForge | Server |
@@ -42,12 +42,12 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Cerulean | Optimizes the advancement checking system | Fabric, Forge | Server |
 | Cesium | Reduces save file size | Fabric, Forge (Connector only) | Server |
 | Clumps | Clumps XP Orbs together, reducing lag | Fabric, Forge | Server |
-| Create Better FPS | Improves fps when using shaders around Create contraptions. Doesn't work as well as Vanillin, but has better shader compatibility | NeoForge | Client |
+| Create Better FPS | Improves fps when using shaders around Create contraptions. Doesn't work as well as Vanillin, but has better shader compatibility | Fabric, Forge | Client |
 | Debugify | Fixes various bugs | Fabric | Both |
 | Flerovium | Speeds up item rendering | Forge | Client |
 | Gnetum | Distributes HUD updates over multiple frames which improves performance | Forge | Client |
 | Immersive Optimization | Improves TPS, but may differ from Vanilla slightly | Fabric, Forge | Server |
-| Ixeris | Offloads event polling to a separate thread, potentially improving FPS | NeoForge | Client |
+| Ixeris | Offloads event polling to a separate thread, potentially improving FPS | Fabric, Forge | Client |
 | Krypton/Krypton Reno | Improves the network stack, may be helpful on multiplayer | Fabric, Forge | Both |
 | Lazyyyyy | Can improve loading times in bigger modpacks | Forge | Both |
 | MapMipMapMod | Improves mipmapping of maps in item frames | Fabric | Client |
@@ -94,6 +94,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Async Logger | Improves performance when there are too many log messages (e.g., servers with many players) | Fabric, Forge | Both |
 | Clumps | Clumps XP Orbs together, reducing lag | Fabric, Forge | Server |
 | Debugify/Modern Debugify | Fixes various bugs. Modern Debugify needs to have MC-147605 disabled if you're using JEI | Fabric, Forge | Both |
+| Gnetum | Distributes HUD updates over multiple frames which improves performance | Forge | Client |
 | Icterine | Optimizes the advancement checking system | Fabric, Forge | Server |
 | Krypton/Krypton Reno | Improves the network stack, may be helpful on multiplayer | Fabric, Forge | Both |
 | Mobtimizations | Modifies Entity behavior to improve performance. May differ from Vanilla slightly | Fabric, Forge | Server |
