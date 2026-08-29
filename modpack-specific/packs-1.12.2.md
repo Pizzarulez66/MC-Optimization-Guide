@@ -7,7 +7,8 @@
 2. Move the pack to Cleanroom Loader
    - **(Prism/MultiMC)** - Download the latest [Cleanroom Loader MMC instance](https://download.cleanroommc.com) and copy the `minecraft` (or `.minecraft`) folder from the ATM3 instance to it.
    - **(CurseForge/Modrinth/ATLauncher/GDLauncher)** - Install the Cleanroom Relauncher mod
-3. Remove AI Improvements, Bed Patch, BetterFPS, Diet Hopper, FastWorkbench, Fence Jumper, FoamFix, HelpFixer, Just Enough Items, LibrarianLib, NotEnoughIDs, Quick Leaf Decay, RandomPatches, Shadowfacts' Forgelin, Spark, Toast Control and Unloader
+3. Update EnderCore and Ender IO
+4. Remove AI Improvements, Bed Patch, BetterFPS, Diet Hopper, FastWorkbench, Fence Jumper, FoamFix, HelpFixer, Just Enough Items, LibrarianLib, NotEnoughIDs, Quick Leaf Decay, RandomPatches, Shadowfacts' Forgelin, Spark, Toast Control and Unloader
 4. Install Forgelin-Continuous, Fugue, Had Enough Items, LibrarianLib-Continuous, Roughly Enough IDs and Scalar Legacy
 5. Make sure you have all of [these mods](/mods-n-stuff/1.12.2.md) installed and configured accordingly
 
