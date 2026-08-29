@@ -45,7 +45,7 @@ This doesn't mean you should just install all of them. Only use the ones you nee
 | Create Better FPS | Improves fps when using shaders around Create contraptions. Doesn't work as well as Vanillin, but has better shader compatibility | Fabric, Forge | Client |
 | Debugify | Fixes various bugs | Fabric | Both |
 | Flerovium | Speeds up item rendering | Forge | Client |
-| Gnetum | Distributes HUD updates over multiple frames which improves performance | Fabric, Forge | Client |
+| Gnetum | Distributes HUD updates over multiple frames which improves performance | Forge | Client |
 | Immersive Optimization | Improves TPS, but may differ from Vanilla slightly | Fabric, Forge | Server |
 | Ixeris | Offloads event polling to a separate thread, potentially improving FPS | Fabric, Forge | Client |
 | Krypton/Krypton Reno | Improves the network stack, may be helpful on multiplayer | Fabric, Forge | Both |
